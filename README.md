@@ -1,17 +1,37 @@
-# eec_receivable_and_collection_report_system
+# EEC Receivable and Collection Report System
 
-A new Flutter project.
+**Status: Work in Progress**
 
-## Getting Started
+## Overview
+A software project intended to support receivable tracking, collection recording, and report generation for Ethiopian Engineering Corporation (EEC).
 
-This project is a starting point for a Flutter application.
+## Technologies
+- Flutter
+- Dart
+- PHP
+- MySQL
 
-A few resources to get you started if this is your first Flutter project:
+## Planned Features
+- Record and manage receivable and collection information
+- View collection records and reports
+- Connect the mobile application to a backend API
+- Store and retrieve data using a database
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Project Structure
+- `lib/` — Flutter application source code
+- `android/` — Android platform files
+- `assets/` — Application assets
+- `test/` — Tests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+1. Install Flutter and Android Studio.
+2. Clone this repository.
+3. Run `flutter pub get`.
+4. Configure the backend API and database.
+5. Run `flutter run`.
+
+## Development Status
+This project is still under development. Some features, backend integration, and testing may be incomplete.
+
+## Security
+Do not commit database passwords, API secrets, or real user records. Configure secure authentication and database permissions before production use.
